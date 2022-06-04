@@ -4,14 +4,11 @@ All group members were present and contributing during all work on this project.
 We have neither received nor given any unauthorized aid in this assignment.
 ********/
 ReadMe:
-1, Students: Nick Luo(Haiyu) Ray Zeng(Tianrui)
+1, Contributor: Nick Luo(Haiyu) Ray Zeng(Tianrui)
 
 2, Name of files: EightPlayer.java, Node.java
 
-3, Possible bugs: 
-For some reasons, for some cases we get the A* has more nodes than the BFS, maybe the A* search has some inefficient implementation.
-
-4, Filled-in table
+3, Filled-in table
 Case           Numbers of moves	 Numbers of nodes generated		
 				BFS	A*(Manhattan) 	A* (Col Row Check) 
 1. 138742065	12		2278	1863		1863
@@ -23,7 +20,7 @@ Case           Numbers of moves	 Numbers of nodes generated
 7. 134805726	unsolvable(no)	no	no		no
 Average for all iterations	4766	644		1603
 
-5, Our new A* heuristic was inspired by the two heuristic methods discussed in class:
+4, Our new A* heuristic was inspired by the two heuristic methods discussed in class:
 For each tile in the board, check whether this tile is on the correct column where the number in the tile suppose to be.
 If it is not, then we add 1 to our heuristic value.
 Same for the row that if it is not on the row that it suppose to be, add 1 to our heuristic value.
